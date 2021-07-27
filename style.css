@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.title{
+    background: rgb(31, 34, 61);
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgba(199, 255, 68, 0.623);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20% 0 20% 0;
+}
+
+.page {
+    background-color: rgb(31, 34, 61);
+    color:rgba(199, 255, 68, 0.623);
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    padding: 4em 1em 4em 1em;
+}
