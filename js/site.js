@@ -7,7 +7,7 @@ if (isNaN(number) || number == ""){
 }
 console.log("Searching for post: " + number)
 
-$.getJSON('../data/data.json', function(data) {
+$.getJSON('data/data.json', function(data) {
     if (data[number] == null){
         document.getElementById('title').innerHTML = '404';
         document.getElementById('description').innerHTML = marked("whoops page can't be found")    
